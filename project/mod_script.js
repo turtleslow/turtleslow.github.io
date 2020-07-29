@@ -1,3 +1,3 @@
 document.addEventListener('keydown', (event) => {
-    document.body = "stop typing: ${event}";
+    document.body.innerHTML = `stop typing: ${event.key}`;
 }, false);
